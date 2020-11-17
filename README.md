@@ -1,84 +1,50 @@
-# pandas_challenge
-Panda assignment
-After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
-Your final report should include each of the following:
+# Heros of Pymoli
+Project Description
 
-Player Count
+The task is to analyze the data generated for the new fantasy game, Heroes of Pymoli. The data was analyzed using pandas and jupyter notebook to breakdown he purchasing data into useful information to help identify target groups. The data was then trended for reporting.
 
-Total Number of Players
+Tools Required
 
+Pandas
+Jupyter Notebook
+Python
 
-Purchasing Analysis (Total)
+Instructions
 
-Number of Unique Items
-Average Purchase Price
-Total Number of Purchases
-Total Revenue
+Count the total number of players.
+Run basic calculations to obtain number of unique items, average price, etc. Create a summary data frame to hold the results
+Calculate count and percentage of males, females, and non-disclosed players
+Run basic calculations to obtain purchase count, avg. purchase price, avg. purchase total per person etc. by gender. Create a summary data frame to hold the results
+Categorize the existing players using the age bins. Calculate the numbers and percentages by age group. Create a summary data frame to hold the results
+Bin the purchase_data data frame by age. Run basic calculations to obtain purchase count, avg. purchase price, avg. purchase total per person etc. in the table below. Create a summary data frame to hold the results
+Run basic calculations to obtain the results in the table below. Create a summary data frame to hold the results. Sort the total purchase value column in descending order
+Retrieve the Item ID, Item Name, and Item Price columns. Group by Item ID and Item Name. Perform calculations to obtain purchase count, item price, and total purchase value. Create a summary data frame to hold the results. Sort the purchase count column in descending order.
+Sort the above table by total purchase value in descending order.
 
+Files
 
-Gender Demographics
+HeroesOfPymoli_working_final.ipynb – jupyter notebook containing code for analyzing data 
 
-Percentage and Count of Male Players
-Percentage and Count of Female Players
-Percentage and Count of Other / Non-Disclosed
-
-
-Purchasing Analysis (Gender)
-
-The below each broken by gender
-
-Purchase Count
-Average Purchase Price
-Total Purchase Value
-Average Purchase Total per Person by Gender
-
-
-
+Results
 
 Age Demographics
+![]( HerosOfPymoli/Age_Group.png)
 
-The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
+Purchasing Analysis (Age)
+![]( HerosOfPymoli/Age_Price%per%person.png)
 
-Purchase Count
-Average Purchase Price
-Total Purchase Value
-Average Purchase Total per Person by Age Group
+Gender Demographics
+![]( HerosOfPymoli/Gender_percent.png)
 
-
-
+Purchasing Analysis (Gender)
+![]( HerosOfPymoli/Gender_purchases.png)
 
 Top Spenders
-
-Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
-
-SN
-Purchase Count
-Average Purchase Price
-Total Purchase Value
-
-
-
+![]( HerosOfPymoli/Most_active_player.png)
 
 Most Popular Items
-
-Identify the 5 most popular items by purchase count, then list (in a table):
-
-Item ID
-Item Name
-Purchase Count
-Item Price
-Total Purchase Value
-
-
-
+![]( HerosOfPymoli/Most_popular_game.png)
 
 Most Profitable Items
+![]( HerosOfPymoli/most_profitable_game.png)
 
-Identify the 5 most profitable items by total purchase value, then list (in a table):
-
-Item ID
-Item Name
-Purchase Count
-Item Price
-Total Purchase Value
