@@ -28,23 +28,30 @@ HeroesOfPymoli_working_final.ipynb – jupyter notebook containing code for anal
 Results
 
 Age Demographics
+
 ![]( HerosOfPymoli/Age_Group.png)
 
 Purchasing Analysis (Age)
+
 ![]( HerosOfPymoli/Age_Price%per%person.png)
 
 Gender Demographics
+
 ![]( HerosOfPymoli/Gender_percent.png)
 
 Purchasing Analysis (Gender)
+
 ![]( HerosOfPymoli/Gender_purchases.png)
 
 Top Spenders
+
 ![]( HerosOfPymoli/Most_active_player.png)
 
 Most Popular Items
+
 ![]( HerosOfPymoli/Most_popular_game.png)
 
 Most Profitable Items
+
 ![]( HerosOfPymoli/most_profitable_game.png)
 
