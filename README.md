@@ -33,7 +33,7 @@ Age Demographics
 
 Purchasing Analysis (Age)
 
-![]( HerosOfPymoli/Age_Price%per%person.png)
+![]( HerosOfPymoli/Age_Price%20per%20erson.png)
 
 Gender Demographics
 
